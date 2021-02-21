@@ -1,0 +1,150 @@
+@font-face {
+    font-family: gilroySb;
+    src: url('/assets/fonts/Gilroy-Semibold.ttf');
+  }
+  
+  @font-face {
+    font-family: gilroyReg;
+    src: url('/assets/fonts/Gilroy-Regular.ttf');
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:gilroySb;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+body::-webkit-scrollbar {
+    display: none;
+}
+#anim,#main{height: 100%;width: 100%;}
+#main{
+    padding: 30px 40px;
+}
+
+#anim{
+    position: absolute;
+    z-index: -1;
+    background-color:black;
+    height: 200%;
+}
+#about{
+    opacity:0.89;
+}
+#main{
+    position: absolute;
+    background-image: url(/assets/Images/bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.79;
+    z-index: 1;
+}
+#nav>img{
+    height:60px;
+}
+a{
+    text-decoration: none;
+}
+
+#nav,#menuIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menuIcon{
+    cursor: pointer;
+}
+#menuIcon>p{
+    color: #fff;
+    margin-left: 10px;
+}
+#nav i{
+    color:#fff;
+    cursor: pointer;
+}
+#about>article{color: #fafafa;
+    font-family: gilroyReg;
+    text-align: center;
+    line-height: 2;
+
+}
+#about h1{
+    color: rgb(243, 101, 101);
+    text-align: center;
+    margin-bottom: 20px;
+}
+#about{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+#about article{
+    width: 60%;
+}
+#about span{
+    color: #fafafa;
+}
+#background{
+    background-color: rgb(0, 0, 0);
+    padding: 30px 40px;
+}
+hr{
+    border: none;
+}
+hr::after{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    width: 100%;
+    content: "";
+    margin-top: 70px;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), #a5a5a5, rgba(0, 0, 0, 0)) !important;
+}
+.aboutImages{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+
+}
+.aboutImages {color: #fafafa;}
+.aboutImages p{
+    font-family: gilroyReg;
+    line-height: 1.7;
+}
+.aboutImages div h2{
+  color: rgb(243, 101, 101);
+  margin: 10px 0;
+}
+.aboutImages span{
+    color: #fafafa
+}
+
+.aboutImages div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+}
+.aboutImages div p{
+    text-align: center; 
+}
+.aboutImages{
+    margin-top: 150px;
+}
+.aboutImages div img{
+    width: 165px;
+}
+.aboutImages:nth-child(4){
+    margin-top: 250px;
+}
