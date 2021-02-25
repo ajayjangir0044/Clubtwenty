@@ -569,7 +569,11 @@ i {
 .aboutImages div{
     width: 100%;
     margin-top: 60px;
-} .hr{
+    
+} .feeds>div{
+    width: 100%;
+}
+    .hr{
     margin-top: 0;
 }
 .aboutImages:nth-child(4){
