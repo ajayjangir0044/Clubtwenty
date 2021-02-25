@@ -97,7 +97,8 @@ a {
 #about h1,
 #gallery h1,
 #blogs h1,
-#team h1,#feedbacks h1 {
+#team h1,
+#feedbacks h1 {
     color: rgb(243, 101, 101);
     text-align: center;
     margin-bottom: 20px;
@@ -120,13 +121,15 @@ a {
 #about span,
 #gallery span,
 #blogs span,
-#team span,#feedbacks span {
+#team span,
+#feedbacks span {
     color: #fafafa;
 }
 
 #background {
     background-color: rgb(0, 0, 0);
     padding: 30px 40px;
+    overflow: hidden;
 }
 
 .hr {
@@ -185,6 +188,7 @@ a {
 .aboutImages div p {
     text-align: center;
 }
+
 .aboutImages div img {
     width: 165px;
 }
@@ -206,7 +210,7 @@ a {
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
-.row{
+.row {
     display: -ms-flexbox;
     display: flex;
     flex-wrap: wrap;
@@ -216,7 +220,8 @@ a {
 }
 
 
-.column,.teamMembers {
+.column,
+.teamMembers {
     -ms-flex: 25%;
     flex: 25%;
     max-width: 25%;
@@ -234,7 +239,9 @@ a {
     width: 100%;
 }
 
-#blogs,#team,.aboutImages {
+#blogs,
+#team,
+.aboutImages {
     margin-top: 100px;
 }
 
@@ -329,157 +336,206 @@ a {
 .decks div:nth-child(2) p:nth-child(2) {
     margin-bottom: 20px;
 }
-#team article{
-    margin-top:50px;
+
+#team article {
+    margin-top: 50px;
 
 }
-.hvr-shutter-in-horizontal{
+
+.hvr-shutter-in-horizontal {
     background: rgb(243, 101, 101) !important;
 }
-.hvr-shutter-in-horizontal::before{
+
+.hvr-shutter-in-horizontal::before {
     background: #fafafa !important;
     border-radius: 2px;
 }
 
-.teamMembers p{
+.teamMembers p {
     color: rgb(31, 30, 30);
-    padding:10px 20px;
+    padding: 15px 25px;
     margin: 10px;
-    width:100%;
+    width: 100%;
     border-radius: 2px;
+    font-size: .9rem;
 }
-#team h2{
+
+#team h2 {
     font-family: 'Playfair Display', serif;
     /* text-shadow: 0 0px 15px rgb(243, 101, 101); */
-    color:#fafafa;
+    color: #fafafa;
     margin-top: 30px;
+
 }
-.teamLead{
+
+.teamLead {
     margin-top: 20px;
 }
-.feeds{
+
+.feeds {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:0px 20px;
-    
+    padding: 0px 20px;
+
 }
-#feedbacks{
+
+#feedbacks {
     margin-top: 140px;
 }
+
 #feedbacks>div {
     margin-top: 80px;
 }
-#feedbacks img{
+
+#feedbacks img {
     width: 17.3%;
 }
-.colon>i{
-    color:#fafafa;
+
+.colon>i {
+    color: #fafafa;
     font-size: 1.2rem;
 }
-.feeds>div{
+
+.feeds>div {
     position: relative;
     width: 360px;
     height: 230px;
     background-color: white;
     border-radius: 12px;
-    
+
 }
-.feedContent{
+
+.feedContent {
     display: flex;
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 0px 20px;
 }
-.feeds p{
-    color:#828087;
+
+.feeds p {
+    color: #828087;
     font-family: gilroyReg;
     font-size: .8rem;
-    line-height:1.4;
+    line-height: 1.4;
     margin: 13px 0px;
     text-align: center;
 }
-.feeds h5{
-    color:#666567;
+
+.feeds h5 {
+    color: #666567;
 }
-.colon{
+
+.colon {
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    background-color:#FC557A;
+    background-color: #FC557A;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top:-13%;
+    top: -13%;
     left: 10%;
 }
-hr{
-    margin-top:80px;
-    border:none;
+
+hr {
+    margin-top: 80px;
+    border: none;
     border-bottom: 1px solid gray;
 }
-#footer{
+
+#footer {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     margin-top: 20px;
-    color: #fafafa;}
-.footContent>img{
+    color: #fafafa;
+}
+
+.footContent>img {
     width: 200px;
-    }
-#footer p{
+}
+
+#footer p {
     color: rgb(243, 101, 101);
     margin: 20px 0;
-    font-size:1.1rem}
-#footer p a,#footer span{
+    font-size: 1.1rem
+}
+
+#footer p a,
+#footer span {
     color: #fafafa;
-    font-family:gilroyReg;
-    font-size:.9rem;
+    font-family: gilroyReg;
+    font-size: .9rem;
 }
-#footLinks{
+
+#footLinks {
     display: flex;
-    align-items:center;
+    align-items: center;
 }
-#footLinks div{
+
+#footLinks div {
     height: 35px;
     width: 35px;
-    /* background-color:#fafafa; */
     border-radius: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     margin-right: 10px;
     cursor: pointer;
 }
-#footer{
+
+#footer {
     padding: 0px 20px;
 }
-#footLinks i{
+
+#footLinks i {
     color: #fafafa;
-    transition:all .2s ease-in-out;
-}
-#footLinks a:hover{
-    transform: scale(1.3);
-}
-#footLinks i:hover{
-    
-    color: rgb(243, 101, 101);
-    
 }
 
-.location iframe{
-    margin-top:10px ;
+.teamMembers p {
+    color: #828087;
 }
+
+#footLinks i:hover {
+    color: rgb(243, 101, 101);
+}
+
+.location iframe {
+    margin-top: 10px;
+}
+
+#copyright p {
+    text-align: center;
+    color: #fafafa;
+    font-family: gilroyReg;
+}
+
+#copyright i {
+    width: 1.6%;
+    color: rgb(243, 101, 101);
+    vertical-align: middle;
+    position: relative;
+    top: -1%;
+}
+
+#copyright a,
+i {
+    color: rgb(243, 101, 101);
+}
+
 @media screen and (max-width: 800px) {
-    .column,.teamMembers {
+
+    .column,
+    .teamMembers {
         -ms-flex: 50%;
         flex: 50%;
         max-width: 50%;
@@ -487,15 +543,73 @@ hr{
 }
 
 @media screen and (max-width: 600px) {
-    .column,.teamMembers {
+
+    .column,
+    .teamMembers {
         -ms-flex: 100%;
         flex: 100%;
         max-width: 100%;
     }
 
+    #team article,#about article {
+        width: 90%;
+    }
+.aboutImages,#footer{
+    flex-direction: column;
+}
+#footer{
+    align-items: flex-start;
+}
+#footer>div,#copyright>p{
+    margin-top: 30px;
+}
+#copyright>p{
+    line-height: 1.6
+}
+.aboutImages div{
+    width: 100%;
+    margin-top: 60px;
+} .hr{
+    margin-top: 0;
+}
+.aboutImages:nth-child(4){
+    margin-top: 100px;
+}
+.aboutImages:nth-child(5){
+    margin-top: 10px;
+}
+    .deckContainer {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .decks {
+        margin-top: 40px;
+    }
+
+    #background {
+        padding: 30px 0;
+    }
     .explore {
         padding-left: 40px;
     }
 
+    .feeds {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .feeds>div {
+        margin-top: 50px;
+    }
+
+    #feedbacks>div {
+        margin-top: 45px;
+    }
+
+    .teamMembers p {
+        margin: 10px 0;
+    }
 }
