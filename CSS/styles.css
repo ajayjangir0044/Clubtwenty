@@ -513,7 +513,8 @@ hr {
     margin-top: 10px;
 }
 
-#copyright p {
+
+p {
     text-align: center;
     color: #fafafa;
     font-family: gilroyReg;
@@ -567,8 +568,8 @@ i {
     line-height: 1.6
 }
     #copyright p{
-    margin-left: 5px;
-    margin-right:5px;
+    margin-left: 2px;
+    margin-right:2px;
 }
 .aboutImages div{
     width: 100%;
