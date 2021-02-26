@@ -515,7 +515,6 @@ hr {
 
 
 p {
-    text-align: center;
     color: #fafafa;
     font-family: gilroyReg;
 }
@@ -526,6 +525,9 @@ p {
     vertical-align: middle;
     position: relative;
     top: -1%;
+}
+#copyright p{
+    text-align:center;
 }
 
 #copyright a,
